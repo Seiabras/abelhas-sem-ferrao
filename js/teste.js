@@ -56,7 +56,7 @@ function fim() {
         : acertos >= 3 ? 'Muito bem! Falta pouco para saber tudo.' : 'Vale a pena fazer o percurso de 3 minutos.';
     area.innerHTML = `
         <h1 tabindex="-1">Você acertou ${acertos} de ${PERGUNTAS.length}</h1>
-        <p style="margin:.8rem 0 1.5rem">${frase}</p>
+        <p class="abre">${frase}</p>
         <div class="acoes"><a class="botao contorno" href="descobrir.html">Fazer o percurso</a>
         <button class="botao" type="button" id="denovo">Tentar de novo</button></div>`;
     area.querySelector('h1').focus();

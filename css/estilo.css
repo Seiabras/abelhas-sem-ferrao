@@ -92,6 +92,10 @@ a.cartao:hover { border-color: var(--folha); }
 .retorno.certo { background: #E3F0DF; color: var(--certo); }
 .retorno.errado { background: #F6E1DD; color: var(--errado); }
 
+.abre { margin: .5rem 0 1.5rem; }
+.sub { font-size: 1.4rem; margin-bottom: .8rem; }
+.sub-menor { font-size: 1.25rem; }
+
 /* Passo a passo */
 .passos { list-style: none; display: grid; gap: .8rem; counter-reset: passo; }
 .passos li { background: var(--branco); border-radius: 14px; padding: 1rem 1.2rem 1rem 4rem; position: relative; counter-increment: passo; }

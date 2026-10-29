@@ -5,7 +5,7 @@ quando se encontra um ninho. Nasceu na atividade de Design Thinking da disciplin
 (CEUB, 2026/2): a partir da entrevista e do protótipo, gerei uma primeira versão no Lovable e depois refiz o site do
 zero em HTML, CSS e JavaScript.
 
-**Ver no ar:** https://seiabras.github.io/abelhas-sem-ferrao/
+**No ar:** https://abelhas.linupedia.com.br
 
 ## Páginas
 
@@ -32,3 +32,8 @@ O autor e a licença de cada uma estão na página de créditos e em `img/credit
 ## Como abrir
 
 É só abrir o `index.html` no navegador; não tem build nem dependência.
+
+## Segurança
+
+Segue a política de segurança dos sites do Linu Sites: tudo vem do próprio endereço, sem CDN e sem estilo ou script
+dentro do HTML (por isso não há nenhum `style="…"`: tudo está em classes no `css/estilo.css`).
