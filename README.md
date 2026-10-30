@@ -24,6 +24,20 @@ zero em HTML, CSS e JavaScript.
 - O percurso e o teste avisam as mudanças para leitores de tela e levam o foco ao título de cada tela.
 - No teste, a resposta não depende só da cor: cada retorno também diz “Certo!” ou “Não é essa.”, com a explicação.
 
+## Idiomas
+
+O site está em 13 idiomas: português do Brasil na raiz e `/pt-pt/`, `/es/`, `/ca/`, `/nl/`, `/en/`, `/fr/`, `/de/`,
+`/it/`, `/intl/` (inglês internacional), `/ja/`, `/ko/` e `/zh-hant/`, com os outros idiomas no rodapé (o percurso e o teste respondem no idioma da página) e as
+alternativas de cada página para os buscadores. As páginas de cada idioma são geradas no repositório do
+[Linu Sites](https://github.com/Seiabras/linu-sites) (o modelo e os textos ficam em `ferramentas/estudo/abelhas-sem-ferrao/`); aqui ficam as
+páginas prontas. As frases que o script escreve vão num `<script type="application/json">` em cada página.
+
+## Modo claro e escuro
+
+Segue o tema do sistema e tem um botão no topo para trocar, que guarda a escolha. O `js/tema-inicio.js` aplica o tema
+antes de pintar (sem piscar a página clara) e o `js/tema.js` cuida do botão. As cores do modo escuro também foram
+medidas pela fórmula de contraste da WCAG, com a mesma regra do modo claro.
+
 ## Fotos
 
 Todas são do [Wikimedia Commons](https://commons.wikimedia.org/), com licença livre, e foram apenas redimensionadas.
