@@ -1,5 +1,10 @@
 # Abelhas sem Ferrão
 
+> **In English:** a site for people who have never heard of Brazil's native stingless bees: they do not sting, where
+> they live and what to do when you find a nest. It came out of a Design Thinking assignment (CEUB, 2026/2): a first
+> version in Lovable, then rebuilt from scratch in HTML, CSS and JavaScript, in 13 languages. Live:
+> https://abelhas.linupedia.com.br
+
 Site para quem nunca ouviu falar das abelhas nativas do Brasil: mostra que elas não picam, onde vivem e o que fazer
 quando se encontra um ninho. Nasceu na atividade de Design Thinking da disciplina de Desenvolvimento de Interfaces
 (CEUB, 2026/2): a partir da entrevista e do protótipo, gerei uma primeira versão no Lovable e depois refiz o site do
