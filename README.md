@@ -22,6 +22,15 @@ zero em HTML, CSS e JavaScript.
 | [`teste.html`](teste.html) | Teste de 5 perguntas, com a resposta certa ou errada na hora |
 | [`creditos.html`](creditos.html) | Autor e licença de cada foto |
 
+### Scripts
+
+| Arquivo | O que faz |
+|---|---|
+| `js/tema-inicio.js` | No `<head>`, sem `defer`: aplica o tema escolhido antes de desenhar a página |
+| `js/tema.js` | O botão de tema: troca e guarda a escolha; sem escolha, segue o sistema |
+| `js/percurso.js` | O percurso “Descobrir em 3 minutos”: uma tela por vez e a barra de progresso |
+| `js/teste.js` | O teste: cinco perguntas, uma por vez, a resposta na hora e a nota no fim |
+
 ## Acessibilidade
 
 - Contraste: o texto principal tem 13,56:1 sobre o creme, e o texto secundário, 6,91:1. O mel (`#E9A23B`) só leva
