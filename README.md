@@ -1,14 +1,14 @@
 # Abelhas sem Ferrão
 
 > **In English:** a site for people who have never heard of Brazil's native stingless bees: they do not sting, where
-> they live and what to do when you find a nest. It came out of a Design Thinking assignment (CEUB, 2026/2): a first
-> version in Lovable, then rebuilt from scratch in HTML, CSS and JavaScript, in 13 languages. Live:
-> https://abelhas.linupedia.com.br
+> they live, what to do when you find a nest and how to start keeping them. It came out of a Design Thinking
+> assignment (CEUB, 2026/2): a first version in Lovable, then rebuilt from scratch in HTML, CSS and JavaScript, in
+> 13 languages. Live: https://abelhas.linupedia.com.br
 
-Site para quem nunca ouviu falar das abelhas nativas do Brasil: mostra que elas não picam, onde vivem e o que fazer
-quando se encontra um ninho. Nasceu na atividade de Design Thinking da disciplina de Desenvolvimento de Interfaces
-(CEUB, 2026/2): a partir da entrevista e do protótipo, gerei uma primeira versão no Lovable e depois refiz o site do
-zero em HTML, CSS e JavaScript.
+Site para quem nunca ouviu falar das abelhas nativas do Brasil: mostra que elas não picam, onde vivem, o que fazer
+quando se encontra um ninho e como começar a criar. Nasceu na atividade de Design Thinking da disciplina de
+Desenvolvimento de Interfaces (CEUB, 2026/2): a partir da entrevista e do protótipo, gerei uma primeira versão no
+Lovable e depois refiz o site do zero em HTML, CSS e JavaScript.
 
 **No ar:** https://abelhas.linupedia.com.br
 
@@ -19,6 +19,7 @@ zero em HTML, CSS e JavaScript.
 | [`index.html`](index.html) | A pergunta de abertura, a jataí, a uruçu e a mandaçaia, e os cartões “Comece por aqui” |
 | [`descobrir.html`](descobrir.html) | Percurso de 3 telas com barra de progresso |
 | [`achei-um-ninho.html`](achei-um-ninho.html) | O passo a passo do que fazer e de como pedir o resgate |
+| [`criar.html`](criar.html) | “Posso criar?”: como começar a criar abelhas nativas em casa, o mel e o que não fazer (31/10/2026) |
 | [`teste.html`](teste.html) | Teste de 5 perguntas, com a resposta certa ou errada na hora |
 | [`creditos.html`](creditos.html) | Autor e licença de cada foto |
 
@@ -37,6 +38,8 @@ zero em HTML, CSS e JavaScript.
   texto escuro e o verde-folha (`#3F6B3A`), texto branco.
 - O percurso e o teste avisam as mudanças para leitores de tela e levam o foco ao título de cada tela.
 - No teste, a resposta não depende só da cor: cada retorno também diz “Certo!” ou “Não é essa.”, com a explicação.
+- Toda página tem um `h1`, e os links do rodapé têm pelo menos 24 px de altura (WCAG 2.2, 2.5.8).
+- Conferido com o axe 4.10 em 31/10/2026, no modo claro e no escuro: nenhuma falha em nenhuma página.
 
 ## Idiomas
 
