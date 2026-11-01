@@ -12,6 +12,29 @@ Lovable e depois refiz o site do zero em HTML, CSS e JavaScript.
 
 **No ar:** https://abelhas.linupedia.com.br
 
+## Pica ou Não Pica? (1/11/2026)
+
+Em português, o site virou um guia para reconhecer os bichos do Brasil que picam, queimam ou só levam a fama, e
+saber o que fazer se picar; as abelhas sem ferrão continuam dentro, como um dos bichos e nas páginas de antes. O nome
+é provisório. As outras 12 línguas seguem com o site das Abelhas até a tradução.
+
+| Página | O que tem |
+|---|---|
+| [`index.html`](index.html) | As quatro portas (Que bicho é?, Picou?, Bichos, Mitos), venenoso × peçonhento e os mais perigosos |
+| [`identificar.html`](identificar.html) | “Que bicho é esse?”: perguntas em árvore até o bicho, com Voltar e Começar de novo |
+| [`bichos.html`](bichos.html) | Os 27 bichos, com busca e filtros de grupo e de perigo |
+| `bicho-<id>.html` | A ficha: pica ou não pica, o perigo, como reconhecer, onde vive, o que fazer e “Não confunda com” |
+| [`socorro.html`](socorro.html) | 192, 193 e 0800 722 6001; o que fazer em qualquer picada, o que nunca fazer e cada bicho |
+| [`mitos.html`](mitos.html) | 17 mitos e o jogo “Verdade ou mito?” (8 perguntas, recorde guardado no navegador) |
+| [`fontes.html`](fontes.html) | As 31 fontes (Ministério da Saúde, Butantan, secretarias de saúde, revistas) |
+
+O script é o `js/guia.js`. Nas três versões: no celular, o menu de 5 itens fica embaixo, os mais perigosos numa faixa
+e o botão “Ligar 192” preso acima do menu; no tablet, cartões em 2 colunas e os telefones numa linha; no computador,
+filtros, telefones e o aviso “Alguém foi picado?” parados numa coluna ao lado, e cartões em 3 ou 4 colunas. Conferido
+com o axe 4.10 em 390 e 1280 px, nos modos claro e escuro: nenhuma falha.
+
+**Não substitui o atendimento médico:** em caso de acidente, ligue 192 ou vá ao serviço de saúde mais perto.
+
 ## Páginas
 
 | Página | O que tem |
