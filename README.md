@@ -68,3 +68,14 @@ O autor e a licença de cada uma estão na página de créditos e em `img/credit
 
 Segue a política de segurança dos sites do Linu Sites: tudo vem do próprio endereço, sem CDN e sem estilo ou script
 dentro do HTML (por isso não há nenhum `style="…"`: tudo está em classes no `css/estilo.css`).
+
+## Três versões: celular, tablet e computador (1/11/2026)
+
+Pela regra 6 do linuarquivos, cada aparelho tem o seu layout, só com CSS (o mesmo HTML nas 13 línguas):
+
+| | Celular (até 699 px) | Tablet (700 a 1099 px) | Computador (1100 px ou mais) |
+|---|---|---|---|
+| Navegação | menu numa barra presa embaixo; no topo, só o nome e o tema | menu no topo | menu no topo |
+| “Comece por aqui” | ladrilhos em 2 colunas | 2 × 2 | os 4 numa linha |
+| Abertura | texto e fotos em uma coluna | texto ao lado das fotos | texto ao lado das fotos, maior |
+
