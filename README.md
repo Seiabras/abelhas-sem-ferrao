@@ -21,19 +21,19 @@ saber o que fazer se picar; as abelhas sem ferrão continuam dentro, como um dos
 | Página | O que tem |
 |---|---|
 | [`index.html`](index.html) | As quatro portas (Que bicho é?, Picou?, Bichos, Aprender), venenoso × peçonhento, os mais perigosos e os atalhos por lugar |
-| [`identificar.html`](identificar.html) | “Que bicho é esse?”: perguntas em árvore até o bicho, com Voltar e Começar de novo |
-| [`bichos.html`](bichos.html) | Os 27 bichos, com busca e filtros de grupo, perigo, lugar e região (com mapa no computador) |
+| [`identificar.html`](identificar.html) | “Que bicho é esse?”: começa por “Onde você está?” e segue em perguntas até o bicho, com Voltar e Começar de novo |
+| [`bichos.html`](bichos.html) | Os 37 bichos (8 grupos, um deles “Transmitem doença”), com busca e filtros de grupo, perigo, lugar e região (com mapa no computador) |
 | `bicho-<id>.html` | A ficha: pica ou não pica, o perigo, como reconhecer, onde vive, o que fazer, “Não confunda com”, o WhatsApp e a data da revisão |
 | [`socorro.html`](socorro.html) | 192, 193 e 0800 722 6001; o que fazer em qualquer picada, o que nunca fazer e cada bicho |
 | [`mitos.html`](mitos.html) | 17 mitos e o jogo “Verdade ou mito?” (8 perguntas, recorde guardado no navegador) |
-| [`fontes.html`](fontes.html) | As 31 fontes (Ministério da Saúde, Butantan, secretarias de saúde, revistas) |
-| [`emergencia.html`](emergencia.html) | “Fui picado”: os três passos, os telefones, o bicho escolhido e o hospital guardado (botão no topo de toda página) |
+| [`fontes.html`](fontes.html) | As 57 fontes (Ministério da Saúde, Butantan, secretarias de saúde, revistas) |
+| [`emergencia.html`](emergencia.html) | “Fui picado”: os três passos, os telefones, ouvir em voz alta, o bicho escolhido, avisar alguém no WhatsApp, o que dizer ao telefone e o hospital guardado (botão no topo de toda página) |
 | [`cartao.html`](cartao.html) | O cartão para mostrar no hospital: bicho, hora (com o tempo passando), sintomas; fica só no aparelho |
 | [`soro.html`](soro.html) | Onde tem soro: como funciona e o hospital da cidade, guardado no aparelho |
 | [`aprender.html`](aprender.html) | A porta dos jogos, mitos, diferenças, prevenção, números e escola |
-| [`jogo.html`](jogo.html) | O jogo “Pica ou não pica?”: 10 bichos, 6 segundos cada (dá para tirar o limite) |
+| [`jogo.html`](jogo.html) | Os jogos “Pica ou não pica?” e “Peçonhento ou venenoso?”: 10 bichos, 6 segundos cada (dá para tirar o limite), sozinho ou no modo turma |
 | [`diferencas.html`](diferencas.html) | Os bichos parecidos lado a lado, com o detalhe desenhado, e o jogo “Qual dos dois?” |
-| [`prevenir.html`](prevenir.html) | O teste “Minha casa está segura?”, crianças, cães e gatos e a época de cada bicho |
+| [`prevenir.html`](prevenir.html) | O teste “Minha casa está segura?”, “Antes da trilha”, crianças, cães e gatos e a época de cada bicho |
 | [`numeros.html`](numeros.html) | Os acidentes de 2023 no Brasil, por bicho (Ministério da Saúde) |
 | [`escola.html`](escola.html) | Plano de aula, duas atividades, cartaz e respostas, para imprimir (uma folha por página) |
 
